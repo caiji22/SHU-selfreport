@@ -57,7 +57,8 @@ def report_day(sess, t):
         return False
 
     BaoSRQ = t.strftime('%Y-%m-%d')
-    XiangXDZ = get_random_address()
+#     XiangXDZ = get_random_address()
+    XiangXDZ = "曲阳路69号"
 
     while True:
         try:
